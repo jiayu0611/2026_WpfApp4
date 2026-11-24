@@ -14,7 +14,7 @@
     </Window.CommandBindings>
     <DockPanel>
         <ToolBarTray Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" DockPanel.Dock="Top" Background="Aqua">
-            <ToolBar x:Name="ApplicationToolbar" Height="40" Width="184" Background="Beige">
+            <ToolBar x:Name="ApplicationToolbar" Height="40" Width="184" Background="#FFB3B35C">
                 <Button x:Name="NewButton" Height="38" Width="38" Command="ApplicationCommands.New">
                     <Image Height="32" Width="32" Source="/new.png"/>
                 </Button>
